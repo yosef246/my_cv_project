@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.footer {
+  padding: 30px 0 0 30px; /*סדר ההרחקה : למעלה ימינה למטה שמאלה*/
+  width: 100%;
+  height: 25vh;
+  background-color: rgb(30, 35, 35);
+  /* overflow: scroll; */
+}
+
+.conection {
+  margin-top: -30px;
+  margin-left: 50px;
+}
+
+.reserved {
+  margin-top: -50px;
+  margin-right: 80px;
+  text-align: right; /* יישור טקסט במרכז */
+}
+
+.talk {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-top: -1vh;
+}
+
+span {
+  color: #aa15db;
+}
+
+ul {
+  display: flex; /* מציב את הקישורים אחד ליד השני */
+  justify-content: center; /* ממרכז את הרשימה */
+  gap: 30px; /* מרווח בין הקישורים */
+  list-style: none; /* מסיר את הנקודות מהרשימה */
+  padding: 0;
+  margin-top: 20px;
+}
+
+ul a {
+  color: white; /* צבע לבן לקישורים */
+  font-size: 2rem; /* גודל האייקונים */
+  transition: transform 0.3s ease; /* אפקט מעבר רך */
+}
+
+ul a:hover {
+  transform: scale(1.1); /* הגדלה בעת ריחוף */
+}
+
+/* רספונסיביות למסכי טאבלט */
+@media screen and (max-width: 768px) {
+  .footer {
+    flex-direction: column; /* שינוי הסידור לאנכי */
+    align-items: center; /* יישור למרכז */
+    height: auto;
+    padding: 20px;
+  }
+
+  .reserved,
+  .conection {
+    margin: 10px 0;
+    text-align: center;
+  }
+
+  ul {
+    flex-direction: column; /* הצגת הרשימה בעמודה */
+    gap: 15px; /* מרווח קטן יותר */
+  }
+
+  ul a {
+    font-size: 1.5rem; /* התאמת גודל האייקונים */
+  }
+}
+
+/* רספונסיביות למסכי טלפון */
+@media screen and (max-width: 375px) {
+  .footer {
+    padding: 15px;
+  }
+
+  .reserved {
+    margin-top: -32px;
+    margin-left: 180px;
+    font-size: 0.6rem; /* טקסט קטן יותר */
+  }
+  .conection {
+    margin-top: -20px;
+    margin-left: -180px;
+    font-size: 0.6rem; /* טקסט קטן יותר */
+  }
+
+  .talk {
+    margin-bottom: 20px;
+    font-size: 1.2rem; /* כותרת קטנה יותר */
+  }
+
+  ul {
+    text-align: center;
+    display: flex; /* מציב את הקישורים אחד ליד השני */
+    justify-content: center; /* ממרכז את הרשימה */
+    gap: 20px; /* מרווח בין הקישורים */
+    list-style: none; /* מסיר את הנקודות מהרשימה */
+    padding: 0;
+    margin-top: 1px;
+  }
+
+  ul a {
+    font-size: 1.2rem; /* אייקונים קטנים יותר */
+  }
+}

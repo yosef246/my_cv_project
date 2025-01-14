@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+.mydiv {
+  padding: 7px 0 0 15px; /* סדר ההרחקה: למעלה ימינה למטה שמאלה */
+  top: 10px;
+  position: absolute;
+  width: 99%;
+  height: 10vh;
+  background-color: rgba(21, 25, 25, 0.6);
+  backdrop-filter: blur(7px); /* יוצר טשטוש */
+}
+
+.container {
+  display: flex; /* מסדר את האלמנטים בשורה אחת */
+  justify-content: space-between; /* ממקם את האלמנטים בקצוות */
+  align-items: center; /* מיישר את התוכן לאורך המרכז האנכי */
+  padding: 10px 20px; /* ריווח פנימי */
+}
+
+.titleContainer {
+  display: flex; /* מסדר את האלמנטים אחד ליד השני */
+  align-items: center; /* מיישר את התוכן לאורך המרכז האנכי */
+  gap: 20px; /* מרווח קבוע בין האלמנטים */
+}
+
+.titleContainer > h2 {
+  font-size: 1.5rem; /* גודל כותרת משנה */
+  font-weight: bold;
+  margin: 0; /* מבטל מרווחים ברירת מחדל */
+}
+
+.span {
+  background: linear-gradient(90deg, #ce6cf5, #bc13ff);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.navList {
+  display: flex; /* מסדר את הפריטים בשורה */
+  gap: 40px; /* מרווח גדול וקבוע בין הפריטים */
+  list-style: none; /* מבטל את הנקודות מהרשימה */
+  margin: 0; /* מבטל ריווחים חיצוניים */
+  padding: 0; /* מבטל ריווחים פנימיים */
+  transform: translateX(-30px); /* מרחיק את הרשימה שמאלה */
+}
+
+.navList li {
+  margin: 0; /* מבטל ריווחים חיצוניים */
+}
+
+.navList a {
+  text-decoration: none; /* מבטל קו תחתי */
+  color: #fff; /* צבע טקסט */
+  font-size: 1.2rem; /* מגדיל את גודל הטקסט */
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.navList a:hover {
+  color: #bc13ff; /* משנה צבע בעת ריחוף */
+}
+
+/* רספונסיביות */
+@media (max-width: 1024px) {
+  /* לטאבלט */
+  .mydiv {
+    height: 9vh; /* גובה מופחת */
+  }
+
+  .titleContainer {
+    margin-top: -20px; /* מזיז את הכותרת יותר למעלה */
+    margin-left: -20px; /* מזיז את הכותרת יותר שמאלה */
+  }
+
+  .titleContainer > h2 {
+    font-size: 1.3rem; /* גודל כותרת משנה קטן יותר */
+  }
+
+  .navList {
+    gap: 20px; /* מרווח קטן יותר בין פריטים */
+    margin-top: -10px; /* מזיז את הרשימה יותר למעלה */
+    margin-right: -10px; /* מזיז את הרשימה יותר ימינה */
+  }
+
+  .navList a {
+    font-size: 1rem; /* טקסט קטן יותר */
+  }
+
+  .navList a:hover {
+    color: #bc13ff; /* משנה צבע בעת ריחוף */
+  }
+}
+
+@media (max-width: 568px) {
+  /* לטלפון */
+  .mydiv {
+    height: 9vh; /* גובה מופחת */
+  }
+
+  .titleContainer {
+    margin-top: -5px; /* מזיז את הכותרת יותר למעלה */
+    margin-left: -20px; /* מזיז את הכותרת יותר שמאלה */
+  }
+
+  .titleContainer > h2 {
+    font-size: 0.8rem; /* גודל כותרת משנה קטן יותר */
+  }
+
+  .navList {
+    align-items: center; /* מיישר אנכית */
+    gap: 10px; /* מרווח קטן יותר בין פריטים */
+    margin-top: -10px; /* מזיז את הרשימה יותר למעלה */
+    margin-right: -40px; /* מזיז את הרשימה יותר ימינה */
+  }
+
+  .navList a {
+    font-size: 0.6rem !important; /* טקסט קטן יותר */
+  }
+
+  .navList a:hover {
+    color: #bc13ff; /* משנה צבע בעת ריחוף */
+  }
+}
