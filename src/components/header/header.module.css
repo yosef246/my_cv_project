@@ -109,7 +109,7 @@
   }
 
   .titleContainer > h2 {
-    font-size: 0.8rem; /* גודל כותרת משנה קטן יותר */
+    font-size: 1rem; /* גודל כותרת משנה קטן יותר */
   }
 
   .navList {
