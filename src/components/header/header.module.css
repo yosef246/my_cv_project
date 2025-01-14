@@ -120,7 +120,7 @@
   }
 
   .navList a {
-    font-size: 1.2rem !important; /* טקסט קטן יותר */
+    font-size: 1rem !important; /* טקסט קטן יותר */
   }
 
   .navList a:hover {
