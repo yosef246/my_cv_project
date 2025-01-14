@@ -2,7 +2,7 @@
   position: relative;
   padding: 5px 0 0 30px; /*סדר ההרחקה : למעלה ימינה למטה שמאלה*/
   width: 100%;
-  height: 100vh;
+  height: 115vh;
   background-color: rgb(30, 35, 35);
   /* overflow: scroll; */
 }
@@ -119,7 +119,7 @@ a:hover {
 /* מסכים קטנים במיוחד (פחות מ-375px) */
 @media (max-width: 375px) {
   .mydiv {
-    height: 150vh;
+    height: 185vh;
     padding: 240px 0 25px 10px; /* התאמת מרווחים למסכים קטנים */
   }
 
