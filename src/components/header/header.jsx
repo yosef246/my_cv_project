@@ -1,9 +1,6 @@
 import style from "./header.module.css";
-import { useState } from "react";
 
 export default function Header() {
-  const [clicked, setClicked] = useState(false);
-
   return (
     <section id="header">
       <div className={style.mydiv}>
