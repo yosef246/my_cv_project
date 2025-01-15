@@ -9,7 +9,7 @@
   padding: 7px 0 0 15px; /* סדר ההרחקה: למעלה ימינה למטה שמאלה */
   top: 10px;
   position: fixed;
-  width: 100%;
+  width: 99%;
   height: 10vh;
   background-color: rgba(21, 25, 25, 0.6);
   backdrop-filter: blur(7px); /* יוצר טשטוש */
@@ -67,7 +67,7 @@
 }
 
 /* רספונסיביות */
-@media (max-width: 1798px) {
+@media (max-width: 1298px) {
   /* לטאבלט */
   .mydiv {
     height: 9vh; /* גובה מופחת */
