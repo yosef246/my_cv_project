@@ -134,8 +134,9 @@
 }
 
 /* מסכים קטנים במיוחד (פחות מ-375px) */
-@media (max-width: 375px) {
+@media (max-width: 395px) {
   .mydiv {
+    height: 500px;
     padding: 80px 0 25px 10px; /* התאמת מרווחים למסכים קטנים */
   }
 
@@ -163,7 +164,7 @@
     font-size: 1.2rem;
     font-weight: bold;
     color: #bc13ff;
-    margin-top: 10px;
+    margin-top: 35px;
   }
 
   ul {

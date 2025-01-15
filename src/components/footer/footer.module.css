@@ -79,7 +79,7 @@ ul a:hover {
 }
 
 /* רספונסיביות למסכי טלפון */
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 395px) {
   .footer {
     padding: 15px;
   }

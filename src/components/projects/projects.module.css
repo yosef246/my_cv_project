@@ -2,21 +2,21 @@
   position: relative;
   padding: 5px 0 0 30px; /*סדר ההרחקה : למעלה ימינה למטה שמאלה*/
   width: 100%;
-  height: 115vh;
+  height: 90vh;
   background-color: rgb(30, 35, 35);
   /* overflow: scroll; */
 }
 
 .container {
-  top: 90px;
-  max-width: 700px;
+  top: 80px;
+  max-width: 900px;
   margin-left: 0;
   padding: 30px;
   font-family: "Arial", sans-serif;
 }
 
 .intro {
-  font-size: 1.5rem;
+  font-size: 1.1rem;
   color: #eae3e3;
 }
 
@@ -89,7 +89,7 @@ a:hover {
 /* מסכים קטנים יותר מ-768px */
 @media (max-width: 1268px) {
   .mydiv {
-    height: 110vh;
+    height: 100vh;
     padding: 5px 0 40px 20px; /* התאמת מרווחים למסכים קטנים */
   }
   .name {
@@ -116,16 +116,68 @@ a:hover {
   }
 }
 
-/* מסכים קטנים במיוחד (פחות מ-375px) */
-@media (max-width: 375px) {
+/* מסכים קטנים יותר מ-576px */
+@media (max-width: 676px) {
   .mydiv {
-    height: 185vh;
-    padding: 240px 0 25px 10px; /* התאמת מרווחים למסכים קטנים */
+    height: 150vh;
+    padding: 190px 0 25px 10px; /* התאמת מרווחים למסכים קטנים */
   }
 
   .container {
-    margin-top: 60px;
     bottom: 20px;
+  }
+
+  .intro {
+    font-size: 1.1rem;
+    color: #eae3e3;
+  }
+
+  .name {
+    margin-top: 10px;
+    font-size: 1.8rem;
+  }
+
+  .jobTitle {
+    margin-top: 10px;
+    font-size: 1rem;
+  }
+
+  .description {
+    margin-top: 10px;
+    font-size: 0.7rem;
+  }
+
+  .talk {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #bc13ff;
+    margin-top: 10px;
+  }
+
+  ul {
+    gap: 2px; /* הקטנת הרווח בין האייקונים */
+  }
+
+  ul a {
+    font-size: 0.7rem; /* הקטנת האייקונים עוד יותר */
+  }
+  a {
+    font-size: 0.4rem;
+    font-weight: bold;
+    color: #bc13ff;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: #dca6f1;
+  }
+}
+
+/* מסכים קטנים במיוחד (פחות מ-375px) */
+@media (max-width: 395px) {
+  .mydiv {
+    height: 1100px;
+    padding: 295px 0 25px 10px; /* התאמת מרווחים למסכים קטנים */
   }
 
   .intro {

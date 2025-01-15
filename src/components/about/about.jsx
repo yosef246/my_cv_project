@@ -43,11 +43,6 @@ export default function About() {
             <h2 className={style.talk}>Let's talk</h2>
             <ul className={style.links}>
               <li>
-                <a href="https://github.com/yosef246" target="_blank">
-                  <i className="fab fa-github"></i>
-                </a>
-              </li>
-              <li>
                 <a
                   href="https://www.linkedin.com/in/yosef-palas-46345824a/"
                   target="_blank"
