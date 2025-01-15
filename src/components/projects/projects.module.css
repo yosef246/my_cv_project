@@ -182,8 +182,9 @@ a:hover {
   }
 
   .description {
+    font-weight: bold;
     margin-top: 5px;
-    font-size: 0.7rem;
+    font-size: 0.8rem;
   }
 
   a {
