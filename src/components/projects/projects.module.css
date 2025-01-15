@@ -51,13 +51,6 @@
   transition: background-color 0.3s ease, transform 0.2s ease; /* אפקט מעבר חלק */
 }
 
-.talk {
-  font-size: 1.8rem;
-  font-weight: bold;
-  color: #bc13ff;
-  margin-top: 27px;
-}
-
 ul {
   margin-top: 15px;
   list-style: none; /* מסיר את הנקודות מהרשימה */
@@ -147,13 +140,6 @@ a:hover {
     font-size: 0.7rem;
   }
 
-  .talk {
-    font-size: 1.2rem;
-    font-weight: bold;
-    color: #bc13ff;
-    margin-top: 10px;
-  }
-
   ul {
     gap: 2px; /* הקטנת הרווח בין האייקונים */
   }
@@ -200,12 +186,6 @@ a:hover {
     font-size: 0.7rem;
   }
 
-  .talk {
-    font-size: 1.2rem;
-    font-weight: bold;
-    color: #bc13ff;
-    margin-top: 10px;
-  }
   a {
     font-size: 0.6rem;
     font-weight: bold;

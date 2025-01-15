@@ -156,6 +156,7 @@
   }
 
   .description {
+    font-weight: bold;
     margin-top: 20px;
     font-size: 0.7rem;
   }
