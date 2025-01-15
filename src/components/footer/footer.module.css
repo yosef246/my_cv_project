@@ -86,12 +86,12 @@ ul a:hover {
 
   .reserved {
     margin-top: -35px;
-    margin-left: 180px;
+    margin-left: 230px;
     font-size: 0.6rem; /* טקסט קטן יותר */
   }
   .conection {
     margin-top: -20px;
-    margin-left: -180px;
+    margin-left: -230px;
     font-size: 0.6rem; /* טקסט קטן יותר */
   }
 

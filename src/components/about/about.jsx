@@ -1,8 +1,12 @@
 import style from "./about.module.css";
 import Header from "../header/header";
 import { motion } from "framer-motion";
+import { useEffect } from "react";
 
 export default function About() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <section id="about">
       <Header />
