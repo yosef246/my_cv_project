@@ -82,6 +82,7 @@ ul a:hover {
 /* רספונסיביות למסכי טלפון */
 @media screen and (max-width: 495px) {
   .footer {
+    height: 200px;
     padding: 15px;
   }
 

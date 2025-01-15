@@ -112,7 +112,7 @@ a:hover {
 /* מסכים קטנים במיוחד (פחות מ-375px) */
 @media (max-width: 495px) {
   .mydiv {
-    height: 1280px;
+    height: 1300px;
     padding: 350px 0 25px 10px; /* התאמת מרווחים למסכים קטנים */
   }
 
