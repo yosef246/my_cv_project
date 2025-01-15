@@ -35,6 +35,7 @@ span {
 }
 
 ul {
+  text-decoration: none;
   display: flex; /* מציב את הקישורים אחד ליד השני */
   justify-content: center; /* ממרכז את הרשימה */
   gap: 30px; /* מרווח בין הקישורים */
