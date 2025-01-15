@@ -28,7 +28,7 @@ span {
   }
 }
 
-@media (max-width: 576px) {
+@media (max-width: 476px) {
   .mydiv {
     padding: 40px 30px 50px 30px;
     height: 60vh;
