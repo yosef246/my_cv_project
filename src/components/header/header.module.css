@@ -9,7 +9,7 @@
   padding: 7px 0 0 15px; /* סדר ההרחקה: למעלה ימינה למטה שמאלה */
   top: 10px;
   position: fixed;
-  width: 99%;
+  width: 98%;
   height: 10vh;
   background-color: rgba(21, 25, 25, 0.6);
   backdrop-filter: blur(7px); /* יוצר טשטוש */
