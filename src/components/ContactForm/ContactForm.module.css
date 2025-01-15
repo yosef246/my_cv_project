@@ -74,7 +74,7 @@
 }
 
 /* רספונסיביות לטלפונים */
-@media (max-width: 576px) {
+@media (max-width: 496px) {
   .lotti {
     left: 50px;
     width: 60vw; /* גודל אנימציה קטן עוד יותר במכשירים קטנים */

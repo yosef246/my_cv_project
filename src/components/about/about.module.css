@@ -98,46 +98,11 @@
   }
 }
 
-/* מסכים קטנים יותר מ-576px */
-@media (max-width: 676px) {
-  .mydiv {
-    height: 600px;
-    padding: 100px 0 40px 20px; /* התאמת מרווחים למסכים קטנים */
-  }
-
-  .container {
-    padding: 20px;
-  }
-
-  .name {
-    margin-top: 15px;
-    font-size: 2rem; /* עוד הקטנת גודל הכותרת */
-  }
-
-  .jobTitle {
-    font-size: 1.2rem;
-  }
-
-  .description {
-    margin-top: 10px;
-    font-size: 0.8rem;
-    line-height: 1.4;
-  }
-
-  ul {
-    gap: 15px !important; /* הקטנת הרווח בין האייקונים */
-  }
-
-  ul a {
-    font-size: 1.5rem !important; /* הקטנת האייקונים עוד יותר */
-  }
-}
-
 /* מסכים קטנים במיוחד (פחות מ-375px) */
 @media (max-width: 495px) {
   .mydiv {
-    height: 500px;
-    padding: 80px 0 25px 10px; /* התאמת מרווחים למסכים קטנים */
+    height: 550px;
+    padding: 100px 0 25px 10px; /* התאמת מרווחים למסכים קטנים */
   }
 
   .intro {

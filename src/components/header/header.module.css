@@ -97,7 +97,7 @@
   }
 }
 
-@media (max-width: 468px) {
+@media (max-width: 498px) {
   /* לטלפון */
   .mydiv {
     height: 9vh; /* גובה מופחת */
