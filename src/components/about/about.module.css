@@ -76,7 +76,7 @@
 }
 
 /* מסכים קטנים יותר מ-768px */
-@media (max-width: 1268px) {
+@media (max-width: 1798px) {
   .mydiv {
     height: 90vh;
     padding: 100px 0 40px 20px; /* התאמת מרווחים למסכים קטנים */

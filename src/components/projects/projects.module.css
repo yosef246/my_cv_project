@@ -80,7 +80,7 @@ a:hover {
 }
 
 /* מסכים קטנים יותר מ-768px */
-@media (max-width: 1268px) {
+@media (max-width: 1798px) {
   .mydiv {
     height: 100vh;
     padding: 5px 0 40px 20px; /* התאמת מרווחים למסכים קטנים */
@@ -162,7 +162,7 @@ a:hover {
 /* מסכים קטנים במיוחד (פחות מ-375px) */
 @media (max-width: 495px) {
   .mydiv {
-    height: 1100px;
+    height: 1250px;
     padding: 295px 0 25px 10px; /* התאמת מרווחים למסכים קטנים */
   }
 

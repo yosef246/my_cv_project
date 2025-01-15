@@ -49,7 +49,7 @@
 }
 
 /* רספונסיביות לטאבלטים */
-@media (max-width: 1268px) {
+@media (max-width: 1798px) {
   .lotti {
     left: 290px;
     width: 30vw; /* גודל אנימציה קטן עוד יותר במכשירים קטנים */

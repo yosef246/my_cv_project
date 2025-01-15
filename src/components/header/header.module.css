@@ -67,7 +67,7 @@
 }
 
 /* רספונסיביות */
-@media (max-width: 1024px) {
+@media (max-width: 1798px) {
   /* לטאבלט */
   .mydiv {
     height: 9vh; /* גובה מופחת */

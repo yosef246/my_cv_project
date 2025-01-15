@@ -30,7 +30,7 @@
 /* --- Media Queries לרספונסיביות --- */
 
 /* טאבלטים (מסכים בגודל קטן מ-1024px) */
-@media (max-width: 1268px) {
+@media (max-width: 1798px) {
   .slideshow {
     width: 40%; /* התאמת רוחב */
     height: 60%; /* התאמת גובה */

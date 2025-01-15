@@ -55,7 +55,7 @@ ul a:hover {
 }
 
 /* רספונסיביות למסכי טאבלט */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1798px) {
   .footer {
     flex-direction: column; /* שינוי הסידור לאנכי */
     align-items: center; /* יישור למרכז */
