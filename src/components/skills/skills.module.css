@@ -8,8 +8,7 @@
   padding: 40px 0 0 30px; /*סדר ההרחקה : למעלה ימינה למטה שמאלה*/
   width: 100%;
   height: 85vh;
-  background-color: rgb(35, 40, 40);
-  /* overflow: scroll; */
+  background: linear-gradient(45deg, #2c2c54, #130e40);
 }
 
 h2 {
@@ -21,10 +20,10 @@ span {
   color: #aa15db;
 }
 
-@media (max-width: 1798px) {
+@media (max-width: 1398px) {
   .mydiv {
     padding: 40px 30px 50px 30px;
-    height: 95vh;
+    height: 70vh;
   }
 }
 

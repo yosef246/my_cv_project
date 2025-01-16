@@ -35,7 +35,7 @@
 
 .contactform button {
   padding: 0.75rem;
-  background-color: #aa15db;
+  background-color: #6f64fb;
   color: #fff;
   border: none;
   border-radius: 4px;
@@ -45,16 +45,16 @@
 }
 
 .contactform button:hover {
-  background-color: #5b0577;
+  background-color: #3a2df4;
 }
 
 /* רספונסיביות לטאבלטים */
 @media (max-width: 1298px) {
   .lotti {
     left: 290px;
-    width: 30vw; /* גודל אנימציה קטן עוד יותר במכשירים קטנים */
-    height: 50vh; /* גובה קטן במכשירים קטנים */
-    bottom: 15%; /* מיקום למטה עבור מסכים מאוד קטנים */
+    width: 30vw;
+    height: 50vh;
+    bottom: 15%;
   }
 
   .contactform {
@@ -77,9 +77,9 @@
 @media (max-width: 496px) {
   .lotti {
     left: 50px;
-    width: 60vw; /* גודל אנימציה קטן עוד יותר במכשירים קטנים */
-    height: 40vh; /* גובה קטן במכשירים קטנים */
-    bottom: 15%; /* מיקום למטה עבור מסכים מאוד קטנים */
+    width: 60vw;
+    height: 40vh;
+    bottom: 15%;
   }
 
   .contactform {

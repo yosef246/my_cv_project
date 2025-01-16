@@ -27,24 +27,20 @@
   transform: scale(1) translateX(0) rotate(0);
 }
 
-/* --- Media Queries לרספונסיביות --- */
-
-/* טאבלטים (מסכים בגודל קטן מ-1024px) */
-@media (max-width: 1298px) {
+@media (max-width: 1398px) {
   .slideshow {
-    width: 40%; /* התאמת רוחב */
-    height: 60%; /* התאמת גובה */
-    right: 50px; /* שינוי המיקום האופקי */
-    top: 20%; /* התאמת המיקום האנכי */
+    width: 40%;
+    height: 76%;
+    right: 30px;
+    top: 10%;
   }
 }
 
-/* טלפונים ניידים (מסכים בגודל קטן מ-576px) */
 @media (max-width: 496px) {
   .slideshow {
-    width: 90%; /* כמעט מלוא הרוחב */
-    height: 25%; /* הקטנת גובה */
-    right: 5%; /* מיקום קרוב למרכז */
-    top: 2%; /* התאמת המיקום האנכי */
+    width: 90%;
+    height: 25%;
+    right: 5%;
+    top: 2%;
   }
 }

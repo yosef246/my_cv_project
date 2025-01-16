@@ -3,8 +3,7 @@
   padding: 5px 0 0 30px; /*סדר ההרחקה : למעלה ימינה למטה שמאלה*/
   width: 100%;
   height: 100%;
-  background-color: rgb(30, 35, 35);
-  /* overflow: scroll; */
+  background: linear-gradient(45deg, #2c2c54, #130e40);
 }
 
 .container {
@@ -21,7 +20,7 @@
 }
 
 .highlight {
-  color: #bc13ff; /* צבע סגול */
+  color: #6f64fb;
 }
 
 .jobTitle {
@@ -41,27 +40,27 @@
 
 .button {
   margin-top: 5px;
-  background-color: #333; /* צבע רקע רגיל */
-  border: none; /* ללא גבול */
+  background-color: #6f64fb;
+  border: none;
   border-radius: 20px; /* פינות מעוגלות */
-  padding: 5px 10px; /* ריווח פנימי אופקי ואנכי */
-  font-size: 1rem; /* גודל טקסט */
+  padding: 5px 10px;
+  font-size: 1rem;
   font-weight: bold; /* טקסט מודגש */
-  cursor: pointer; /* מצביע עכבר משתנה ליד */
+  cursor: pointer;
   transition: background-color 0.3s ease, transform 0.2s ease; /* אפקט מעבר חלק */
 }
 
 ul {
   margin-top: 15px;
   list-style: none; /* מסיר את הנקודות מהרשימה */
-  display: flex; /* מציב את הפריטים אחד ליד השני */
-  gap: 20px; /* מרווח קטן בין האייקונים */
-  padding: 0; /* מסיר ריווח פנימי */
+  display: flex;
+  gap: 20px;
+  padding: 0;
 }
 
 ul a {
-  color: white; /* צבע לבן לאייקונים */
-  font-size: 2rem; /* גודל אייקון גדול יותר */
+  color: white;
+  font-size: 2rem;
   transition: transform 0.3s ease; /* אפקט מעבר רך בעת ריחוף */
 }
 
@@ -71,49 +70,39 @@ ul a:hover {
 
 a {
   font-weight: bold;
-  color: #bc13ff;
+  color: #e4e4e4;
   text-decoration: none;
 }
 
-a:hover {
-  color: #dca6f1;
-}
-
-/* מסכים קטנים יותר מ-768px */
 @media (max-width: 1298px) {
   .mydiv {
     height: 100vh;
-    padding: 5px 0 40px 20px; /* התאמת מרווחים למסכים קטנים */
+    padding: 5px 0 40px 20px;
   }
   .name {
-    font-size: 1.5rem; /* הקטנת גודל הכותרת */
+    font-size: 1.5rem;
   }
 
   .jobTitle {
-    font-size: 1.1rem; /* הקטנת גודל הכותרת המשנית */
+    font-size: 1.1rem;
   }
 
   .description {
-    font-size: 0.6rem; /* הקטנת גודל הטקסט */
+    font-size: 0.6rem;
   }
 
   a {
     font-size: 0.8rem;
     font-weight: bold;
-    color: #bc13ff;
+    color: #dfdbe0;
     text-decoration: none;
-  }
-
-  a:hover {
-    color: #dca6f1;
   }
 }
 
-/* מסכים קטנים במיוחד (פחות מ-375px) */
 @media (max-width: 495px) {
   .mydiv {
     height: 1300px;
-    padding: 350px 0 25px 10px; /* התאמת מרווחים למסכים קטנים */
+    padding: 350px 0 25px 10px;
   }
 
   .intro {
@@ -139,11 +128,7 @@ a:hover {
   a {
     font-size: 0.6rem;
     font-weight: bold;
-    color: #bc13ff;
+    color: #dfdbe0;
     text-decoration: none;
-  }
-
-  a:hover {
-    color: #dca6f1;
   }
 }

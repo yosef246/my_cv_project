@@ -21,7 +21,7 @@ export default function Projects() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 4 }}
           >
-            <h1 className={style.jobTitle}>"ToDo"</h1>
+            <h1 className={style.jobTitle}>ToDo Project</h1>
             <p className={style.description}>
               A responsive site that deals with creating personal comments by
               connecting the user <br /> or registering a new user, the user is
@@ -64,7 +64,7 @@ export default function Projects() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 4 }}
           >
-            <h1 className={style.jobTitle}>"Food-menu"</h1>
+            <h1 className={style.jobTitle}>Food-menu Project</h1>
             <p
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
@@ -97,7 +97,7 @@ export default function Projects() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 4 }}
           >
-            <h1 className={style.jobTitle}>"Challenge Tracker"</h1>
+            <h1 className={style.jobTitle}>Challenge Tracker Project</h1>
             <p className={style.description}>
               An interactive website built with React that allows users to
               create personal challenges,

@@ -8,92 +8,91 @@
 .mydiv {
   padding: 7px 0 0 15px; /* סדר ההרחקה: למעלה ימינה למטה שמאלה */
   top: 10px;
-  position: fixed;
-  width: 98.8%;
+  width: 100%;
   height: 10vh;
-  background-color: rgba(21, 25, 25, 0.6);
-  backdrop-filter: blur(7px); /* יוצר טשטוש */
+  background: linear-gradient(60deg, #2c2c54, #130e40);
+  /* backdrop-filter: blur(7px); יוצר טשטוש */
 }
 
 .container {
-  display: flex; /* מסדר את האלמנטים בשורה אחת */
+  display: flex;
   justify-content: space-between; /* ממקם את האלמנטים בקצוות */
   align-items: center; /* מיישר את התוכן לאורך המרכז האנכי */
-  padding: 10px 20px; /* ריווח פנימי */
+  padding: 10px 20px;
 }
 
 .titleContainer {
-  display: flex; /* מסדר את האלמנטים אחד ליד השני */
-  align-items: center; /* מיישר את התוכן לאורך המרכז האנכי */
-  gap: 20px; /* מרווח קבוע בין האלמנטים */
+  display: flex;
+  align-items: center;
+  gap: 20px;
 }
 
 .titleContainer > h2 {
-  font-size: 1.5rem; /* גודל כותרת משנה */
+  font-size: 1.5rem;
   font-weight: bold;
-  margin: 0; /* מבטל מרווחים ברירת מחדל */
+  margin: 0;
 }
 
 .span {
-  background: linear-gradient(90deg, #ce6cf5, #bc13ff);
+  background-color: #6f64fb;
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 .navList {
-  display: flex; /* מסדר את הפריטים בשורה */
-  gap: 40px; /* מרווח גדול וקבוע בין הפריטים */
+  display: flex;
+  gap: 40px;
   list-style: none; /* מבטל את הנקודות מהרשימה */
-  margin: 0; /* מבטל ריווחים חיצוניים */
-  padding: 0; /* מבטל ריווחים פנימיים */
+  margin: 0;
+  padding: 0;
   transform: translateX(-30px); /* מרחיק את הרשימה שמאלה */
 }
 
 .navList li {
-  margin: 0; /* מבטל ריווחים חיצוניים */
+  margin: 0;
 }
 
 .navList a {
   text-decoration: none; /* מבטל קו תחתי */
-  color: #fff; /* צבע טקסט */
-  font-size: 1.2rem; /* מגדיל את גודל הטקסט */
+  color: #fff;
+  font-size: 1.2rem;
   font-weight: bold;
   transition: color 0.3s ease;
 }
 
 .navList a:hover {
-  color: #bc13ff; /* משנה צבע בעת ריחוף */
+  color: #6f64fb;
 }
 
 /* רספונסיביות */
-@media (max-width: 1298px) {
+@media (max-width: 1398px) {
   /* לטאבלט */
   .mydiv {
-    height: 9vh; /* גובה מופחת */
+    height: 9vh;
   }
 
   .titleContainer {
-    margin-top: -20px; /* מזיז את הכותרת יותר למעלה */
-    margin-left: -20px; /* מזיז את הכותרת יותר שמאלה */
+    margin-top: 10px;
+    margin-left: 5px;
   }
 
   .titleContainer > h2 {
-    font-size: 1.3rem; /* גודל כותרת משנה קטן יותר */
+    font-size: 1.3rem;
   }
 
   .navList {
-    gap: 20px; /* מרווח קטן יותר בין פריטים */
-    margin-top: -10px; /* מזיז את הרשימה יותר למעלה */
-    margin-right: -10px; /* מזיז את הרשימה יותר ימינה */
+    gap: 20px;
+    margin-top: 10px;
+    margin-right: 5px;
   }
 
   .navList a {
-    font-size: 1rem; /* טקסט קטן יותר */
+    font-size: 1.2rem;
   }
 
   .navList a:hover {
-    color: #bc13ff; /* משנה צבע בעת ריחוף */
+    color: #6f64fb;
   }
 }
 
@@ -101,30 +100,30 @@
   /* לטלפון */
   .mydiv {
     width: 100%;
-    height: 9vh; /* גובה מופחת */
+    height: 9vh;
   }
 
   .titleContainer {
-    margin-top: 10px; /* מזיז את הכותרת יותר למעלה */
-    margin-left: -20px; /* מזיז את הכותרת יותר שמאלה */
+    margin-top: 10px;
+    margin-left: -20px;
   }
 
   .titleContainer > h2 {
-    font-size: 1rem; /* גודל כותרת משנה קטן יותר */
+    font-size: 1rem;
   }
 
   .navList {
     align-items: center; /* מיישר אנכית */
-    gap: 10px; /* מרווח קטן יותר בין פריטים */
-    margin-top: 10px; /* מזיז את הרשימה יותר למעלה */
-    margin-right: -40px; /* מזיז את הרשימה יותר ימינה */
+    gap: 10px;
+    margin-top: 10px;
+    margin-right: -40px;
   }
 
   .navList a {
-    font-size: 1rem !important; /* טקסט קטן יותר */
+    font-size: 1rem !important;
   }
 
   .navList a:hover {
-    color: #bc13ff; /* משנה צבע בעת ריחוף */
+    color: #6f64fb;
   }
 }

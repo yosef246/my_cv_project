@@ -1,39 +1,46 @@
-.mydiv {
-  display: flex; /* שימוש ב-Flexbox */
-  flex-direction: column; /* מסדר את התוכן בעמודה */
-  justify-content: center; /* מרכז אנכית */
-  align-items: center; /* מרכז אופקית */
-  padding: 70px 0 0 30px; /* הרחקות לפי הצורך */
-  width: 100%;
-  height: 80%;
-  background-color: rgb(35, 40, 40);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-/* מגדירים את העיצוב הכללי */
+.mydiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 70px 0 0 30px;
+  width: 100%;
+  height: 80%;
+  background: linear-gradient(45deg, #2c2c54, #130e40);
+}
+
 .container {
   max-width: 900px;
   padding: 30px;
   font-family: "Arial", sans-serif;
-  text-align: center; /* מרכז את הטקסט בתוך ה-Container */
 }
 
 .intro {
+  text-align: left;
   font-size: 1.1rem;
   color: #eae3e3;
 }
 
 .highlight {
-  color: #bc13ff; /* צבע סגול */
+  color: #6f64fb;
 }
 
 .name {
+  text-align: left;
   font-size: 3.5rem;
   font-weight: bold;
-  color: #bc13ff;
+  color: #6f64fb;
   margin-top: 25px;
 }
 
 .jobTitle {
+  text-align: left;
   font-size: 1.8rem;
   font-weight: 600;
   color: #eeecec;
@@ -51,14 +58,14 @@
 .talk {
   font-size: 1.8rem;
   font-weight: bold;
-  color: #bc13ff;
+  color: #6f64fb;
   margin-top: 27px;
 }
 
 .links {
-  display: flex; /* מציב את הקישורים אחד ליד השני */
+  display: flex;
   justify-content: center; /* ממרכז את הרשימה */
-  gap: 30px; /* מרווח בין הקישורים */
+  gap: 30px;
   list-style: none; /* מסיר את הנקודות מהרשימה */
   padding: 0;
   margin-top: 20px;
@@ -66,8 +73,8 @@
 
 .links a {
   margin-top: 10px;
-  color: white; /* צבע לבן לקישורים */
-  font-size: 2rem; /* גודל האייקונים */
+  color: white;
+  font-size: 2rem;
   transition: transform 0.3s ease; /* אפקט מעבר רך */
 }
 
@@ -75,34 +82,32 @@
   transform: scale(1.1); /* הגדלה בעת ריחוף */
 }
 
-/* מסכים קטנים יותר מ-768px */
-@media (max-width: 1298px) {
+@media (max-width: 1398px) {
   .mydiv {
-    height: 90vh;
-    padding: 100px 0 40px 20px; /* התאמת מרווחים למסכים קטנים */
+    height: 60vh;
+    padding: 100px 0 40px 20px;
   }
   .name {
-    font-size: 2.5rem; /* הקטנת גודל הכותרת */
+    font-size: 2.5rem;
   }
 
   .jobTitle {
-    font-size: 1.5rem; /* הקטנת גודל הכותרת המשנית */
+    font-size: 1.5rem;
   }
 
   .description {
-    font-size: 0.9rem; /* הקטנת גודל הטקסט */
+    font-size: 0.9rem;
   }
 
   ul a {
-    font-size: 1.8rem; /* הקטנת גודל האייקונים */
+    font-size: 1.8rem;
   }
 }
 
-/* מסכים קטנים במיוחד (פחות מ-375px) */
 @media (max-width: 495px) {
   .mydiv {
-    height: 550px;
-    padding: 100px 0 25px 10px; /* התאמת מרווחים למסכים קטנים */
+    height: 470px;
+    padding: 10px 0 0 10px;
   }
 
   .intro {
@@ -128,7 +133,6 @@
   .talk {
     font-size: 1.2rem;
     font-weight: bold;
-    color: #bc13ff;
     margin-top: 35px;
   }
 
@@ -138,6 +142,6 @@
 
   ul a {
     padding-right: 10px;
-    font-size: 20px !important; /* הקטנת האייקונים עוד יותר */
+    font-size: 20px !important;
   }
 }
