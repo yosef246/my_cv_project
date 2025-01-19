@@ -1,5 +1,5 @@
 import style from "./about.module.css";
-import Header from "../header/header";
+
 import { motion } from "framer-motion";
 import { useEffect } from "react";
 
@@ -9,7 +9,6 @@ export default function About() {
   }, []);
   return (
     <section id="about">
-      <Header />
       <div className={style.mydiv}>
         <div className={style.container}>
           <motion.div
