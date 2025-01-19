@@ -73,7 +73,7 @@
 
 .links a {
   margin-top: 10px;
-  color: #6f64fb;
+  color: white;
   font-size: 2rem;
   transition: transform 0.3s ease; /* אפקט מעבר רך */
 }
