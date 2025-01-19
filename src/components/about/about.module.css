@@ -35,7 +35,7 @@
   text-align: left;
   font-size: 3.5rem;
   font-weight: bold;
-  color: #6f64fb;
+  /* color: #6f64fb; */
   margin-top: 25px;
 }
 
@@ -58,7 +58,7 @@
 .talk {
   font-size: 1.8rem;
   font-weight: bold;
-  color: #6f64fb;
+  /* color: #6f64fb; */
   margin-top: 27px;
 }
 
@@ -73,7 +73,7 @@
 
 .links a {
   margin-top: 10px;
-  color: white;
+  color: #6f64fb;
   font-size: 2rem;
   transition: transform 0.3s ease; /* אפקט מעבר רך */
 }
