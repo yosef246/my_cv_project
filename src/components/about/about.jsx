@@ -31,7 +31,7 @@ export default function About() {
               A little about me:
               <br /> with 3 years of experience in designing, developing and
               maintaining diverse web applications. Experienced in various
-              technologies and problem solving.A dedicated team player who is
+              technologies and problem solving. A dedicated team player who is
               passionate about innovation and learning new things, efficiency
               and continuous self-learning ability, has high sociability and
               quick integration into the team, and even strives for great
