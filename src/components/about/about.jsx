@@ -26,7 +26,7 @@ export default function About() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1.5 }}
           >
-            <h1 className={style.jobTitle}>Full Stack Web Developer.</h1>
+            <h1 className={style.jobTitle}>Full Stack Web Developer</h1>
             <p className={style.description}>
               A little about me:
               <br /> with 3 years of experience in designing, developing and
